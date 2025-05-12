@@ -18,3 +18,5 @@ Finally, you can run the cal_CNR.py and cal_SNR.py files in compute_metric direc
 The centers used by ROI.py are based on the ChatGPT estimation. It's fixed and not reliable. To be honest, it's really silly to use fixed centers and fuzzy radius to present a ROI circle. But if you ask me why I still use it, I will say my mom called me to have lunch so I don't have much time ^_^ .
 
 You can address this flaw by implementing edge detection method or clustering method. These methods maybe can help you to get more accurate ROI.
+
+Thank God. My partner in this CT_Recon project complete this task by using K-means clustering. You can directly run compute_metric.py in compute_metric directory to get the SNR and CNR.
